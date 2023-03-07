@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LATIHAN1 || Ubah Warna</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        text-align: center;
+      }
+      .biru-muda {
+        background-color: aqua;
+      }
+      .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10ppx auto;
+      }
+      .merah {
+        background-color: red;
+      }
+      .biru {
+        background-color: blue;
+      }
+      .hijau {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body id="cc">
+    <div id="div">
+      <h1>BERMAIN DENGAN WARNA</h1>
+      <button type="button" id="tUbahWarna">Ubah Warna</button>
+      <br />
+      <br />
+      <center><div class="kotak merah"></div></center>
+      <br />
+      <input type="range" name="sMerah" min="0" max="255" />
+      <br />
+      <center><div class="kotak biru"></div></center>
+      <br />
+      <input type="range" name="sBiru" min="0" max="255" />
+      <br />
+      <center><div class="kotak hijau"></div></center>
+      <br />
+      <input type="range" name="sHijau" min="0" max="255" />
+    </div>
+  </body>
+  <script src="latihan1.js"></script>
+</html>
