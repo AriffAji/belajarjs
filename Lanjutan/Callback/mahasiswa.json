@@ -1,0 +1,20 @@
+[
+  { "nama": "Muhammad Arif", 
+    "nim": "12345", 
+    "email": "Arif@poliwangi.ac.id", 
+    "jurusan": "Teknik Informatika", 
+    "idDosenWali": 1 
+  },  
+  { "nama": "Muhammad Aji", 
+    "nim": "12445", 
+    "email": "aji@poliwangi.ac.id", 
+    "jurusan": "Teknik Informatika", 
+    "idDosenWali": 2
+  },
+  { "nama": "Naufal Fadhlul Aziz", 
+    "nim": "12355", 
+    "email": "Naufal@poliwangi.ac.id", 
+    "jurusan": "Teknik Informatika", 
+    "idDosenWali": 3 
+  }
+]
